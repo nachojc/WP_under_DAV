@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-oct-2014, 11:54:46
+    Author     : Nacho
+*/
+
+.publiz1Up,.publiz2Up{visibility: hidden;overflow:hidden;position: absolute;padding: 2px;
+    -webkit-transition: all 1s ease-in-out, visibility 1s linear;
+    -moz-transition: all 1s ease-in-out, visibility 1s linear;
+    -o-transition: all 1s ease-in-out, visibility 1s linear;
+    transition: all 1s ease-in-out, visibility 1s linear;}
+.publiz1Up{top: 0;left: 0;width: 728px;height: 90px;background: #0000FF;}
+.publiz2Up{top: 0;right: 0;width: 234px;height: 90px;background: #0000FF;z-index: 2;}
+
+.publiz1:hover .publiz1Up,.publiz2:hover .publiz2Up{visibility: visible;}
+.publiz1:hover .publiz1Up{height: 200px;}
+.publiz2:hover .publiz2Up{height: 300px;width: 300px;}
+.publizLeftUp,.publizRightUp,.publizPushUp,.publizPush2Up{position: absolute;}
+.publizLeftUp{top: 0;margin-left: -145px;height: 900px;width: 140px;padding: 2px;background: #0000FF;}
+.publizRightUp{top: 0;margin-left: 995px;height: 900px;width: 140px;padding: 2px;background: #0000FF;}
+.publizPushUp{width: 990px;margin-top: -45px;height: 44px;padding: 2px;background: #0000FF;}
+.publizPush2Up{visibility: hidden;top: 0;left: 0;height: 44px;padding: 2px;width: 990px;
+    -webkit-transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    -o-transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    overflow-y: hidden;}
+.publizPushUp:hover .publizPush2Up{margin-top: -375px;height: 419px;visibility: visible;background: #0000FF;}
+.publizPushDown{width: 990px; height: 44px;padding: 2px;background: #0000FF;margin-top: 10px;position: relative;}
+.publizPushDown:hover .publizPush2Up{margin-bottom: -375px;height: 419px;visibility: visible;background: #0000FF;z-index: 10}

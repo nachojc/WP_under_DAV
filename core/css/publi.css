@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-oct-2014, 11:54:46
+    Author     : Nacho
+*/
+div.publicidad{position: relative;}
+.publiz1Up,.publiz2Up{visibility: hidden;overflow:hidden;position: absolute;padding: 2px;
+    -webkit-transition: all 1s ease-in-out, visibility 1s linear;
+    -moz-transition: all 1s ease-in-out, visibility 1s linear;
+    -o-transition: all 1s ease-in-out, visibility 1s linear;
+    transition: all 1s ease-in-out, visibility 1s linear;}
+.publiz1Up{top: 0;left: 0;width: 728px;height: 90px;}
+.publiz2Up{top: 0;right: 0;width: 234px;height: 90px;z-index: 100;}
+
+.publiz1:hover .publiz1Up,.publiz2:hover .publiz2Up{visibility: visible;}
+.publiz1:hover .publiz1Up{height: 200px;}
+.publiz2:hover .publiz2Up{height: 300px;width: 300px;}
+.publizPushUp,.publizPush2Up{position: absolute;}
+.publizLeftUp,.publizRightUp{position: fixed;height: auto;}
+.publizLeftUp{margin-left: -458px;padding-right: 2px;}
+.publizRightUp{margin-left: 995px;padding-left: 2px;}
+.publizLeftUp img{float: right!important;}
+.publizPushUp{width: 990px;margin-top: -45px;height: 44px;padding: 2px;}
+.publizPush2Up{visibility: hidden;top: 0;left: 0;height: 44px;padding: 2px;width: 990px;
+    -webkit-transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    -moz-transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    -o-transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    transition: height 1s ease-in-out,margin-top 1s ease-in-out;
+    overflow-y: hidden;}
+.publizPushUp:hover .publizPush2Up{margin-top: -375px;height: 424px;visibility: visible;}
+.publizPushDown{text-align: center;width: 990px; height: 44px;padding: 2px;position: relative;margin-top: 10px;}
+.publizPushDown:hover .publizPush2Up{margin-bottom: -375px;height: 424px;visibility: visible;z-index: 100;}
+
+div.publicidad .publicidadSideKick{visibility: hidden;top: 0;right: 2px;
+    width: 300px;position: absolute;  height: 256px; margin: -2px; z-index: 100;
+    webkit-transition: width 1s ease-in-out,margin-right 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out,margin-right 1s ease-in-out;
+    -o-transition: width 1s ease-in-out,margin-right 1s ease-in-out;
+    transition: width 1s ease-in-out,margin-right 1s ease-in-out;
+    overflow-x: hidden;}
+div.publicidad:hover .publicidadSideKick{margin-left: -300px;width: 610px;visibility: visible;}

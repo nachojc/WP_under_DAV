@@ -1,0 +1,1681 @@
+/*
+Theme Name: PRESS
+Design Studio: Obox Design https://www.obox-design.com/
+Version: 1.1.9
+Author: Obox Design
+Author URI: https://www.obox-design.com/
+*/
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*- RESET - Courtesy of Eric Meyer's CSS Reset Awesomeness: https://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ ---*/
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+/* remember to define focus styles! */
+
+:focus {
+    outline: 0;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* tables still need 'cellspacing="0"' in the markup */
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+/*--*********************************************************************************--------*/
+
+
+/*- IE6 WARNING - BEFORE WE DO ANYTHING!! WE NEED TO TELL EVERYONE TO GET RID OF IE 6 -------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.no_ie {
+    clear: both;
+    border-bottom: 2px solid #a60000;
+    background: #ffcece;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.no_ie h1 {
+    font-size: 22px;
+    color: #a60000;
+}
+
+.no_ie p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.no_ie a {
+    color: #a60000;
+    text-decoration: underline;
+}
+
+.no_ie a:hover {
+    color: #000;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- SETUP STD CLASSES -----------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size: 25pt;
+    margin: 0px 0px 20px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+h1.h1-sub-title {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20pt;
+    margin: 0px 0px 10px;
+    line-height: 24px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 17pt;
+    margin: 0px 0px 10px;
+    line-height: 24px;
+    font-weight: lighter;
+}
+
+h4 {
+    margin: 0px;
+    padding: 8px 0px 10px 0px;
+    font-weight: lighter;
+}
+
+h5 {
+    margin: 0px;
+    padding: 8px 0px 10px 0px;
+    font-weight: lighter;
+}
+
+h6 {
+    margin: 0px;
+    padding: 8px 0px 10px 0px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 12pt;
+    line-height: 24px;
+    margin: 0px 0px 15px;
+}
+
+blockquote,
+blockquote p {
+    font-size: 17pt;
+    line-height: 30px;
+    margin: 0px 0px 15px;
+}
+
+form {}
+
+label {}
+
+textarea,
+input {
+    font-size: 12pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+input[type=radio] {}
+
+input[type=checkbox] {}
+
+input[type=image] {}
+
+input[type=button] {
+    padding: 8px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- GLOBAL CLASSES --------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*--- Links ---*/
+
+a.std_link,
+a {
+    text-decoration: none;
+}
+
+a.std_link:hover,
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {}
+
+
+/*--- Layouts ---*/
+
+.no_bg {
+    background-image: none;
+}
+
+.clearboth {
+    clear: both
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatright {
+    float: right;
+}
+
+.no_display {
+    display: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.alignleft {
+    float: left;
+    margin: 0px 20px 10px 0px;
+}
+
+.alignright {
+    float: right;
+    margin: 0px 0px 10px 20px;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- GENERAL LAYOUT --------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+#container {
+    width: 960px;
+    margin: 40px auto 0px;
+    padding: 0px;
+}
+
+#header {
+    padding: 0px 0px 20px;
+}
+
+#content-container {
+    margin-bottom: 50px;
+}
+
+#left-column {
+    float: left;
+    width: 630px;
+}
+
+#right-column {
+    float: right;
+    width: 290px;
+}
+
+#full-width {
+    loat: left;
+    width: 100%;
+}
+
+#footer {
+    clear: both;
+    padding: 20px 0px 10px;
+    margin: 0px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- HEADER ----------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.logo {
+    float: left;
+}
+
+
+/*--------------------------*/
+
+
+/*- MENU -------------------*/
+
+ul#menu {
+    float: right;
+    margin-top: 24px;
+    font-size: 11pt;
+}
+
+ul#menu li.parent-item {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 20px 0px;
+    position: relative;
+}
+
+ul#menu li.parent-item:last-child {
+    padding: 0px 0px 0px 20px;
+}
+
+ul#menu li.parent-item a.parent-link {}
+
+ul#menu li.parent-item a.parent-link:hover {
+    text-decoration: none;
+}
+
+ul#menu li.parent-item a.parent-link-sub-menu {}
+
+ul#menu li.parent-item a.parent-link-sub-menu:hover {}
+
+ul#menu li.menu-rss {}
+
+ul#menu li.menu-rss a {}
+
+ul#menu li.menu-rss a:hover {}
+
+
+/*--------------------------*/
+
+
+/*- SUB MENU ---------------*/
+
+ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    z-index: 1000;
+}
+
+ul.sub-menu li {
+    padding: 10px;
+    width: 130px;
+    font-size: 10pt;
+}
+
+ul.sub-menu li a {
+    display: block;
+}
+
+ul.sub-menu li a:hover {
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+ul.sub-menu li:last-child {
+    border-bottom: none;
+}
+
+ul#menu li.parent-item:last-child ul.sub-menu {
+    display: none;
+    right: 0px;
+    position: absolute;
+    top: 35px;
+    z-index: 1000;
+}
+
+
+/*---------------------------*/
+
+
+/*- WORDPRESS MENU ----------*/
+
+#nav {
+    float: right;
+    margin-top: 24px;
+    font-size: 11pt;
+}
+
+#nav li {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    padding: 0px 20px 0px;
+    position: relative;
+}
+
+#nav li:last-child {}
+
+#nav li a {
+    display: block;
+}
+
+#nav li a:hover,
+#nav li a.current {}
+
+#nav ul.sub-menu {
+    position: absolute;
+    top: 35px;
+    z-index: 1000;
+    left: 0px;
+}
+
+#nav ul.sub-menu ul {
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+    left: 140px;
+}
+
+#nav ul.sub-menu li {
+    padding: 10px;
+    width: 130px;
+    font-size: 10pt;
+}
+
+#nav ul.sub-menu li a {
+    display: block;
+}
+
+#nav ul.sub-menu li:last-child a {
+    display: block;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- HOME PAGE LAYOUT ------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------*/
+
+
+/*- FEATURE POST -----------------------------------------*/
+
+.feature-post {
+    clear: both;
+    padding: 0px 0px 20px;
+    position: relative;
+    z-index: 3
+}
+
+a.scroller-left,
+a.scroller-right {
+    position: absolute;
+    top: 150px;
+    display: block;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    z-index: 3;
+}
+
+a.scroller-left {
+    left: -25px;
+    background-position: top left;
+}
+
+a.scroller-right {
+    right: -25px;
+    background-position: top right;
+}
+
+a.scroller-left:hover {
+    background-position: bottom left;
+}
+
+a.scroller-right:hover {
+    float: right;
+    background-position: bottom right;
+}
+
+.feature-post .feature-post-image {
+    padding: 0px;
+    margin-bottom: 30px;
+    z-index: 1;
+    display: block;
+    height: 360px;
+    width: 960px;
+    overflow: hidden;
+}
+
+
+/*.feature-post .feature-post-image div img{position: relative;}*/
+
+.feature-post .feature-post-content h1 a {}
+
+.feature-post .feature-post-content p {
+    width: 630px;
+}
+
+.feature-post .feature-post-content a.action-link {
+    clear: both;
+    width: 176px;
+    height: 26px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.feature-post .feature-post-content a.action-link:hover {
+    background-position: bottom;
+}
+
+
+/*--------------------------------------------------------*/
+
+
+/*- POST LIST 1 ------------------------------------------*/
+
+ul.post-list {
+    padding: 0px 0px 20px;
+    margin: 0px 0px 30px;
+}
+
+ul.post-list li {
+    width: 240px;
+    float: left;
+    overflow: hidden;
+}
+
+ul.post-list li:last-child {
+    width: 240px;
+    border: none;
+}
+
+ul.post-list li .copy {
+    padding: 15px;
+}
+
+ul.post-list li h2 a {
+    font-size: 15pt;
+}
+
+ul.post-list li p {
+    font-size: 11pt;
+}
+
+ul.post-list li a.action-link {
+    clear: both;
+    width: 176px;
+    height: 26px;
+    display: block;
+    text-indent: -9999px;
+}
+
+ul.post-list li a.action-link:hover {
+    background-position: bottom;
+}
+
+
+/*--------------------------------------------------------*/
+
+
+/*- POST LIST 2 ------------------------------------------*/
+
+ul.sub-post-list {}
+
+ul.sub-post-list li {
+    float: left;
+    width: 440px;
+    padding: 0px 20px 0px;
+    overflow: hidden;
+}
+
+ul.sub-post-list li .copy {
+    padding: 15px 0px;
+}
+
+ul.sub-post-list li h3 a {
+    font-size: 15pt;
+    font-style: italic;
+}
+
+ul.sub-post-list li p {
+    font-size: 11pt;
+}
+
+ul.sub-post-list li a.action-link {
+    clear: both;
+    width: 176px;
+    height: 26px;
+    display: block;
+    text-indent: -9999px;
+}
+
+ul.sub-post-list li a.action-link:hover {
+    background-position: bottom;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- POSTS CLASSES ---------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- RESET SOME CLASSES FOR THE COPY AFTER CLEARING EVERYTHING AT THE TOP OF THE CSS  -*/
+
+.post .copy p {
+    clear: none;
+}
+
+.post .copy ol,
+.post .copy ul {
+    list-style: disc;
+    margin: 0px 0px 10px 30px;
+}
+
+.post .copy ol li,
+.post .copy ul li {
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.post .copy ol {
+    list-style: decimal;
+}
+
+.post .copy code,
+.post .copy pre {}
+
+.post .copy img {}
+
+.post .copy h2 {
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+.post .copy h3 {
+    margin-top: 20px;
+}
+
+.no-posts {
+    clear: both;
+    margin-top: 20px;
+}
+
+.search-header {
+    clear: both;
+    margin: 20px 0px;
+}
+
+.post {
+    clear: both;
+}
+
+.post .image {
+    margin-bottom: 20px;
+}
+
+.post .video {
+    margin-bottom: 20px;
+}
+
+.post h1 {
+    padding-bottom: 20px;
+    margin: 0px 0px 10px;
+    clear: both;
+}
+
+.post h1 a {}
+
+.post h1 a:hover {
+    text-decoration: none;
+}
+
+h3.date {
+    font-size: 11pt;
+    font-style: italic;
+    margin: 0px 0px 10px;
+}
+
+.post .copy {
+    margin-bottom: 30px;
+}
+
+.post .copy a.action-link {}
+
+.post .copy a.action-link:hover {}
+
+.post a.read-post {}
+
+ul.page_button_content {
+    padding: 15px 20px 0px;
+    border-top: 1px solid #e0e0e0;
+}
+
+ul.page_button_content li {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+
+/*	
+	.page_button_content{}
+		.previous_page{}
+		.next_page{}
+		.previous_page a, .next_page a{}
+			.previous_page a:hover, .next_page a:hover{}
+	*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- PROMOTE POST ----------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.promote-post {
+    margin-bottom: 30px;
+}
+
+.promote-post h2 {
+    font-size: 18pt;
+    margin: 0px 0px 10px;
+    padding: 0px;
+}
+
+.enjoy-copy {
+    font-size: 14pt;
+    font-style: italic;
+    margin: 0px;
+}
+
+.promote-post ul li {
+    float: left;
+    padding: 10px 0px 0px;
+    margin-right: 15px;
+}
+
+.promote-post ul li.tweet {
+    padding-top: 29px;
+}
+
+.promote-post ul li.moo {
+    padding-top: 29px;
+}
+
+.promote-post ul li.bump {
+    padding-top: 19px;
+}
+
+.promote-post ul li.digg {
+    padding-top: 11px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- COMMENTS --------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+#comments {
+    padding: 20px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.comment {
+    clear: both;
+    padding: 30px 30px;
+}
+
+.comment h4.comment-date {
+    font-size: 11pt;
+    font-style: italic;
+    margin: 0px 0px 10px;
+}
+
+.comment h3 {
+    clear: both;
+    font-size: 20pt;
+}
+
+.comment h3 a {}
+
+.comment h3 a:hover {
+    text-decoration: none;
+}
+
+.comment h3 span.twitter-link a {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.comment h3 span.twitter-link a:hover {}
+
+.user {
+    float: left;
+    width: 90px;
+    margin: 0px 30px 30px 0px;
+}
+
+.user img {
+    margin-bottom: 20px;
+}
+
+.user a.action-link {
+    font-size: 9pt;
+    font-style: italic;
+}
+
+.user a.action-link:hover {
+    text-decoration: none;
+}
+
+.comment-post {
+    float: left;
+    width: 440px;
+}
+
+.comment-odd {}
+
+
+/*--------------------------------------------------------*/
+
+
+/*- THREADED COMMENTS - ITS TIME TO THREAD THIS BEAST ----*/
+
+.threaded-comments {
+    clear: both;
+}
+
+.threaded-comments .thread-comment {
+    padding: 30px 0px 30px 120px;
+}
+
+.threaded-comments .last {
+    padding-bottom: 0px;
+}
+
+.threaded-comments .user {
+    float: left;
+    width: 90px;
+    margin-right: 30px;
+}
+
+.threaded-comments .comment-post {
+    float: left;
+    width: 320px;
+}
+
+.threaded-comments .comment-post blockquote {
+    font-size: 10pt;
+    padding: 20px 20px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- POST A COMMENT --------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.comment-form-content {
+    padding: 30px;
+}
+
+.comment-form-content h1 {
+    padding: 0px 0px 30px;
+    border: 0px;
+}
+
+.comment-form-content .comment_form label {
+    clear: left;
+    float: left;
+    margin-top: 8px;
+    display: inline-block;
+    width: 100px;
+    font-size: 14pt;
+}
+
+.comment-input {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.comment-input input {
+    width: 450px;
+    padding: 8px 5px;
+}
+
+.comment-texarea {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.comment-texarea textarea {
+    width: 450px;
+    height: 180px;
+    padding: 5px;
+}
+
+.checkbox {
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+
+input.submit_button {
+    padding: 8px;
+    margin-left: 100px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- SPRITES ---------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+.header-comments,
+.header-promote-post,
+.header-leave-comment {
+    clear: both;
+    height: 20px;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-promote-post {}
+
+.header-comments {
+    padding: 0px 30px 20px 30px;
+    position: relative;
+    left: 30px;
+}
+
+.header-leave-comment {}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- ARCHIVES --------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+#archives {
+    margin-top: 30px;
+}
+
+#archives a {}
+
+#archives a:hover {}
+
+h4.archive_year {
+    font-size: 20pt;
+}
+
+#archives .archives_list {}
+
+#archives .archives_list li {
+    line-height: 24px;
+    padding: 10px 0px;
+}
+
+#archives .archives_list li .archive-post-image {
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+#archives .archives_list .date {
+    display: block;
+    margin-right: 20px;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+#archives .archives_list .date sup {
+    position: relative;
+    top: -3px;
+    font-size: 7pt;
+}
+
+#archives ul .label {
+    display: inline-block;
+    min-width: 80px;
+}
+
+#archives ul .label a {}
+
+#archives ul .label a:hover {}
+
+#archives .archives_list li:last-child {
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- GALLERY PAGES ---------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+ul.gallery_list {
+    clear: both;
+    margin-top: 40px;
+}
+
+li.gallery_description {
+    float: left;
+    width: 323px;
+    height: 131px;
+    padding: 20px;
+    margin: 0px 1px 1px 0px;
+    border: 10px solid #f3f3f3;
+    background: #f9f9f9;
+}
+
+li.gallery_description h1 {
+    line-height: 38px;
+    margin: 0px 0px 10px;
+}
+
+li.gallery_description p {
+    color: #555;
+}
+
+li.gallery_image {
+    float: left;
+    width: 191px;
+    height: 191px;
+    margin: 0px 1px 1px 0px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+li.gallery_image a {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    width: 191px;
+    height: 191px;
+    overflow: hidden;
+}
+
+li.gallery_image a img {
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+}
+
+span.gallery-image-overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 192px;
+    background: url(images/gallery-image-overlay.png) -5px no-repeat;
+    text-indent: -9999px;
+}
+
+span.gallery-image-overlay:hover {
+    background: url(images/gallery-image-overlay.png) top repeat;
+    text-decoration: none;
+    position: absolute;
+}
+
+span.gallery-image-overlay:hover span.gallery_name {
+    padding: 20px;
+    display: block;
+    z-index: 3;
+    color: #fff;
+    text-indent: 0px;
+    line-height: 22px;
+}
+
+span.gallery-image-overlay:hover span.gallery_name span.gallery-date {
+    display: block;
+    color: #ccc;
+    font-size: 10pt;
+    font-style: italic;
+}
+
+li.gallery_image a:hover,
+li.gallery_image a span:hover {
+    text-decoration: none;
+}
+
+li.image-right {
+    margin-right: 0px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- RIGHT COLUMN ----------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+#right-column h2,
+#right-column h2 a {
+    font-size: 16pt;
+    padding: 10px 0px 5px;
+    margin: 0px 0px 10px;
+    clear: both;
+}
+
+#right-column h2 a {}
+
+#right-column h2 a:hover {
+    text-decoration: none;
+}
+
+#right-column ul div {}
+
+#right-column ul li.widget {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+#right-column ul li.widget:last-child {}
+
+#right-column ul li ul li {
+    padding: 12px 12px 12px 26px;
+    line-height: 22px;
+}
+
+#right-column ul li ul li a {}
+
+#right-column ul li ul li a:hover {}
+
+#right-column ul li:first-child {}
+
+#right-column ul li:last-child {}
+
+#right-column .advert {
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin: 10px;
+}
+
+
+/*--------------------------------------------*/
+
+
+/*- DETAILED LISTING IN RIGHT COLUMN ---------*/
+
+ul.feature-list {}
+
+ul.feature-list li {}
+
+ul.feature-list li .detail-image {}
+
+ul.feature-list li div.detail-details {}
+
+ul.feature-list li a.detail-link {}
+
+ul.feature-list li p {}
+
+
+/*--------------------------------------------*/
+
+
+/*- SEARCH -----------------------------------*/
+
+.search-bar {
+    margin: 30px 0px 20px;
+    padding: 10px;
+}
+
+.search-form input.search {
+    width: 200px;
+    background: none;
+    border: none;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.search-form input.search_button {
+    font-size: 10pt;
+    font-style: italic;
+    width: 15px;
+    float: right;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- FOOTER ----------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+ul.footer-columns {
+    padding: 0px 0px 30px;
+    line-height: 22px;
+}
+
+ul.footer-columns h2 {
+    font-size: 15pt;
+}
+
+ul.footer-columns p {
+    font-size: 10pt;
+}
+
+ul.footer-columns li.column-one,
+ul.footer-columns li.column-two,
+ul.footer-columns li.column-three,
+ul.footer-columns li.column-four {
+    width: 200px;
+    padding: 0px 20px;
+    float: left;
+}
+
+ul.footer-columns ul li {
+    padding: 10px 0px;
+}
+
+ul.footer-columns ul li:first-child {
+    border-top: none;
+}
+
+ul.footer-columns ul li:last-child {
+    border-bottom: none;
+}
+
+ul.footer-columns ul li a {
+    display: block;
+}
+
+
+/*- ------------------------------*/
+
+
+/*- SOCIAL ICONS -----------------*/
+
+a.twitter,
+a.facebook,
+a.flickr,
+a.friendfeed,
+a.delicious,
+a.digg,
+a.lastfm,
+a.youtube,
+a.feed,
+a.linked-in {
+    background: url(images/icons/sprite.gif) no-repeat;
+    overflow: hidden;
+    text-indent: 30px;
+    padding: 2px 0px;
+}
+
+a.twitter {
+    background-position: 0px -630px;
+}
+
+a.facebook {
+    background-position: 0px -108px;
+}
+
+a.flickr {
+    background-position: 0px -182px;
+}
+
+a.friendfeed {
+    background-position: 0px -220px;
+}
+
+a.delicious {
+    background-position: 0px -33px;
+}
+
+a.digg {
+    background-position: 0px -70px;
+}
+
+a.lastfm {
+    background-position: 0px -369px;
+}
+
+a.linked-in {
+    background-position: 0px -405px;
+}
+
+a.youtube {
+    background-position: 0px -780px;
+}
+
+a.feed {
+    background-position: 0px -145px;
+}
+
+.footer-copy {
+    clear: both;
+    padding: 20px 20px 5px;
+    font-size: 8pt;
+}
+
+p.copyright {
+    font-size: 8pt;
+    float: left;
+}
+
+p.copyright a {}
+
+p.copyright a:hover {}
+
+a.obox-logo {
+    float: right;
+    width: 185px;
+    height: 16px;
+    display: block;
+    text-indent: -9999px;
+}
+
+a.obox-logo:hover {
+    float: right;
+    width: 185px;
+    height: 16px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*- SOME STANDARD WORDPRESS PLUGIN/WIDGET STYLES --------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------*/
+
+
+/*- FLICKR -----------------------------------*/
+
+#flickr_badge_wrapper {}
+
+#flickr_badge_wrapper .flickr_badge_image {
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+
+/*--------------------------------------------*/
+
+
+/*- CALENDAR ---------------------------------*/
+
+
+/*--- RIGHT COLUMN CALENDAR ---*/
+
+#right-column #calendar_wrap {}
+
+#wp-calendar {
+    padding: 5px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#right-column #wp-calendar caption {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#wp-calendar td,
+#wp-calendar th {
+    padding: 10px;
+}
+
+#right-column #wp-calendar td {
+    text-align: center;
+}
+
+#right-column #wp-calendar #prev {
+    padding: 5px;
+    text-align: left;
+}
+
+#right-column #wp-calendar #next {
+    padding: 5px;
+    text-align: right;
+}
+
+#right-column #wp-calendar th {
+    padding: 10px;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+
+/*--- FOOTER CALENDAR ---*/
+
+#footer #calendar_wrap {}
+
+#footer #wp-calendar {
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+#footer #wp-calendar caption {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#footer #wp-calendar td,
+#wp-calendar th {
+    padding: 5px;
+    text-align: center;
+}
+
+#footer #wp-calendar td {
+    border: none;
+}
+
+#footer #wp-calendar #prev {
+    padding: 5px;
+    text-align: left;
+}
+
+#footer #wp-calendar #next {
+    padding: 5px;
+    text-align: right;
+}
+
+#footer #wp-calendar th {
+    padding: 5px;
+    font-style: italic;
+    text-transform: lowercase;
+    border: none;
+}
+
+
+/*--------------------------------------------*/
+
+
+/*- TWITTER ----------------------------------*/
+
+
+/*--- RIGHT COLUMN TWITTER ---*/
+
+ul#twitter_update_list {
+    font-size: 11pt;
+    font-style: italic;
+}
+
+ul#twitter_update_list li {
+    background: none;
+}
+
+ul#twitter_update_list li a {}
+
+ul#twitter_update_list li a:hover {}
+
+
+/*--- FOOTER TWITTER ---*/
+
+#footer ul#twitter_update_list {
+    font-size: 11pt;
+    font-style: italic;
+    line-height: 23px;
+}
+
+#footer ul#twitter_update_list li {
+    background: none;
+}
+
+#footer ul#twitter_update_list li a {
+    display: inline-block;
+}
+
+#footer ul#twitter_update_list li a:hover {}
+
+
+/*--------------------------------------------*/
+
+
+/*- RSS WIDGET -------------------------------*/
+
+.rsswidget {
+    clear: both;
+}
+
+.rss-date {
+    font-size: 9pt;
+    font-style: italic;
+    display: block;
+}
+
+.rssSummary {
+    font-size: 10pt;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*- CLEARFIX --- * I prefer not to touch this code, I don't recommend you do so either, it works... so don't fix whats working ;) * -*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* https://sonspring.com/journal/clearing-floats */
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear {
+    background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+/* https://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}

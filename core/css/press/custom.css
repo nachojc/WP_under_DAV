@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.entry {
+    overflow: hidden;
+}
+
+div#stimuli_lightbox>div {
+    max-width: 100%!important;
+    position: relative;
+}
+
+div#stimuli_lightbox img {
+    max-width: 100%!important;
+}
+
+
+/* Sociable*/
+
+.sociable ul {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.sociable a {
+    background: url(../../img/sociable.png) no-repeat scroll;
+    display: block;
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+
+div.sociable {
+    margin-top: 15px;
+    float: left;
+    width: 100%
+}

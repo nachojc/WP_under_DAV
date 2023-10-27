@@ -1,0 +1,245 @@
+/*
+Color Option: White and Maroon
+*/
+
+/*-------------------------------------------------------------------------------------------*/
+/*- SETUP STD CLASSES -----------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+body{color: #252525; background-color: #fff;}
+
+h1{color: #000;}
+	h1.h1-sub-title{border-top: 5px solid #000;}
+h2{color: #000;}
+h3{color: #000;}
+h4{}
+h5{}
+h6{}
+
+p{color: #333;}
+blockquote, blockquote p{color: #333;}
+
+form{}
+label{color: #fff;}
+textarea, input{color: #333;}
+input[type=radio]{}
+input[type=checkbox]{}
+input[type=image]{}
+input[type=button]{color: #fff; background: #c23c2f; border: 1px solid #d55c4f;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- GLOBAL CLASSES --------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*--- Links ---*/
+a.std_link, a{color: #9F2322;}
+a.std_link:hover, a:hover{color: #333;}
+a:active{color: #9F2322;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- GENERAL LAYOUT --------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+#header{border-bottom: 5px solid #9F2322;}
+#footer{background: #111; border-top: 5px solid #9F2322;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- HEADER ----------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+	/*--------------------------*/
+	/*- MENU -------------------*/
+	ul#menu li.parent-item a.parent-link{color: #222;}
+	ul#menu li.parent-item a.parent-link:hover{color: #9F2322;}
+
+		/*--------------------------*/
+		/*- SUB MENU ---------------*/
+		ul.sub-menu li{background-color: #9F2322; color: #fff; border-bottom: 1px dotted #D53C3C;}
+			ul.sub-menu li a{color: #fff;}
+				ul.sub-menu li a:hover{color: #E99898;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- HOME PAGE LAYOUT ------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+	/*--------------------------------------------------------*/
+	/*- FEATURE POST -----------------------------------------*/
+	a.scroller-left, a.scroller-right{background: url(big-arrows.png) no-repeat;}
+		a.scroller-left{left: -25px; background-position: top left;}
+		a.scroller-right{right: -25px; background-position: top right;}
+			a.scroller-left:hover{background-position: bottom left;}
+			a.scroller-right:hover{float: right; background-position: bottom right;}
+
+	.feature-post .feature-post-image{border-bottom: 5px solid #9F2322;}
+
+	.feature-post .feature-post-content h1 a{color: #6F1118;}
+	.feature-post .feature-post-content a.action-link{background: url(continue-reading.png) top no-repeat;}
+
+	/*--------------------------------------------------------*/
+	/*- POST LIST 1 -------------------------222-----------------*/
+	ul.post-list{background: url(post-list-bg.png) repeat-y; border-bottom: 5px solid #9F2322; border-top: 5px solid #9F2322;}
+		ul.post-list li h2 a{color: #6F1118;}
+		ul.post-list li p{color: #333;}
+		ul.post-list li a.action-link{background: url(continue-reading.png) top no-repeat;}
+
+	/*--------------------------------------------------------*/
+	/*- POST LIST 2 ------------------------------------------*/
+	ul.sub-post-list li h3 a{color: #6F1118;}
+	ul.sub-post-list li p{color: #555;}
+		ul.sub-post-list li a.action-link{background: url(continue-reading.png) top no-repeat;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- POSTS CLASSES ---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*- RESET SOME CLASSES FOR THE COPY AFTER CLEARING EVERYTHING AT THE TOP OF THE CSS  -*/
+.post .copy ol, .post .copy ul{color: #555;}
+.post .copy h2{color: #222;}
+.post .copy a{color: #9F2322;}
+.post .copy a:hover{color: #000;}
+
+
+	.post .image{border-bottom: 5px solid #9F2322;}
+	.post .video{border-bottom: 5px solid #9F2322;}
+	
+	.post .copy h1{border-bottom: 1px dotted #ccc;}
+		.post .copy h1 a{color: #000;}
+		.post .copy h1 a:hover{color: #9F2322;}
+	h3.date{color: #575757;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- PROMOTE POST ----------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+.enjoy-copy{color: #575757;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- COMMENTS --------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+#comments{background: #111;}
+	.comment{background: #f6f6f6; border-bottom: 1px solid #ccc;}
+		.comment h4.comment-date{color: #575757;}
+		.comment h3{color: #000;}
+			.comment h3 a{color: #000;}
+			.comment h3 a:hover{color: #9F2322;}
+			.comment h3 span.twitter-link a{color: #777;}
+			.comment h3 span.twitter-link a:hover{color: #000;}
+
+			.user img{border: 5px solid #c5c5c5;}
+			.user a.action-link{color: #222;}
+				.user a.action-link:hover{color: #9F2322;}
+
+	.comment-odd{background: #f1f1f1;}	
+	
+	/*--------------------------------------------------------*/
+	/*- THREADED COMMENTS - ITS TIME TO THREAD THIS BEAST ----*/
+	.threaded-comments .thread-comment{border-top: 1px dotted #ccc;}
+	.threaded-comments .comment-post blockquote{background: #ddd;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- POST A COMMENT --------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+.comment-form-content{background: #111; border-bottom: 5px solid #9F2322;}
+	.comment-form-content .comment_form label{color: #fff;}
+
+	.comment-input input{background: #ccc; border: 1px solid #fff;}
+	.comment-texarea textarea{background: #ccc; border: 1px solid #fff;}
+
+	.checkbox{color: #777;}
+	input.submit_button{color: #fff; background: #9F2322; border: 1px solid #D53C3C;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- SPRITES ---------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+.header-comments, .header-promote-post, .header-leave-comment{background:url(headers.png) no-repeat;}
+	.header-promote-post	{background-position: 0px 0px;}
+	.header-comments		{background-position: 0px -79px;}
+	.header-leave-comment	{background-position: 0px -157px;}
+
+/*-------------------------------------------------------------------------------------------*/
+/*- ARCHIVES --------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+h4.archive_year{color: #888;}
+#archives .archives_list li{border-bottom: 1px dotted #ccc;}
+	#archives .archives_list li .archive-post-image{border: 5px solid #c5c5c5;}
+	#archives .archives_list .date{color: #888;}
+		#archives ul .label a{color: #333; }
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- GALLERY PAGES ---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+li.gallery_description{border: 10px solid #f3f3f3; background: #f9f9f9;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- RIGHT COLUMN ----------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+#right-column h2, #right-column h2 a{color: #252525; border-bottom: 3px solid #000;}
+	#right-column h2 a{color: #252525;}
+	#right-column h2 a:hover{color: #9F2322;}
+
+	#right-column ul li ul li{border-bottom: 1px dotted #ccc; background: url(right-column-li-bg.gif) left no-repeat;}
+		#right-column ul li ul li a{color: #252525;}
+		#right-column ul li ul li a:hover{color: #9F2322;}
+
+	#right-column .advert{background-color: #333;}
+
+
+	/*--------------------------------------------*/
+	/*- SEARCH -----------------------------------*/
+	.search-bar{border: 1px solid #ccc; background: #fff;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- FOOTER ----------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+ul.footer-columns{border-bottom: 1px solid #000; color: #888;}
+	ul.footer-columns h2{color: #D53C3C;}
+	ul.footer-columns p{color: #888;}
+
+	ul.footer-columns ul li{border-bottom: 1px solid #000; border-top: 1px solid #191919;}
+	ul.footer-columns ul li a{color: #fff;}
+	ul.footer-columns ul li a:hover{color: #D53C3C; text-decoration: none;}
+
+.footer-copy{border-top: 1px solid #191919;}
+	p.copyright{color: #555;}
+		p.copyright a{color: #ccc;}
+		p.copyright a:hover{color: #fff;}
+	a.obox-logo{background: url(obox-logo.png) top;}
+		a.obox-logo:hover{background: url(obox-logo.png) bottom;}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- SOME STANDARD WORDPRESS PLUGIN/WIDGET STYLES --------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------*/
+/*- FLICKR -----------------------------------*/
+#flickr_badge_wrapper{}
+	#flickr_badge_wrapper .flickr_badge_image{border: 5px solid #ccc;}
+
+
+/*--------------------------------------------*/
+/*- CALENDAR ---------------------------------*/
+	/*--- RIGHT COLUMN CALENDAR ---*/
+	#right-column #wp-calendar caption {color: #252525;}
+	#wp-calendar td, #wp-calendar th{color: #555;}
+	#right-column #wp-calendar td{border: 1px solid #ccc;}
+	#right-column #wp-calendar th{color: #fff; background: #222; border: 1px solid #ccc;}
+		
+	/*--- FOOTER CALENDAR ---*/
+	#footer #wp-calendar caption {color: #fff;}
+	#footer #wp-calendar td, #wp-calendar th{color: #555;}
+	#footer #wp-calendar th{color: #fff; background: #9F2322;}
+
+	/*--------------------------------------------*/
+	/*- TWITTER ----------------------------------*/
+	ul#twitter_update_list{color: #575757;} 
+		ul#twitter_update_list li a{color: #575757;}
+			ul#twitter_update_list li a:hover{color: #9F2322;}
+
+

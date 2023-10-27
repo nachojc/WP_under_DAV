@@ -1,0 +1,5 @@
+.four-column li {width: 215px !important;}
+
+.two-column li.column  {width: 450px !important;}
+
+#footer ul li.column {width: 215px !important;} 
