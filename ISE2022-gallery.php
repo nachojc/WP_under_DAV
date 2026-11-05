@@ -32,7 +32,7 @@ Template Name: ISE 2022 gallery
 <style>
 .vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } 
 .menu-tab {float: left;width: 240px;overflow: hidden;}
-iframe{width: 100%;height: 60ew;}
+iframe{width: 100%;height: auto;aspect-ratio: 16 / 9;}
 </style>
 </head>
 

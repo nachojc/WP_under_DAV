@@ -1,3 +1,6 @@
+<?php 
+$IdHijos="";
+?>
 <nav class="navbar" role="navigation">
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="under-menu">

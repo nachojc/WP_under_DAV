@@ -1,4 +1,4 @@
+<!-- Revive Adserver Etiqueta JS asincrónica - Generated with Revive Adserver v6.0.8 -->
 <div class="publicidad">
-	<ins data-revive-zoneid="47" data-revive-id="eb661876e5a1d3ef33c346f0014b9fec"></ins>
-
+	<ins data-revive-zoneid="23" data-revive-id="4f7984244b2d064a882cb0b8d89ae2dd"></ins>
 </div>

@@ -5,7 +5,7 @@ $sticky = get_option('sticky_posts');
 	$sticky = array_slice( $sticky, 0, $num_sticky ); // NOS DA LOS CUATRO MAS NUEVOS
 	$argumentos = array(
 	   'post__in' => $sticky,
-	   'caller_get_posts' => 1
+	   'ignore_sticky_posts' => 1
    );
 
    $query = new WP_Query($argumentos);

@@ -294,10 +294,10 @@ tr, td{padding: 3px 8px;}
 	.copy ul{list-style: disc; margin: 0px 0px 15px 18px; line-height: 22px;}
 	.copy ol{list-style: decimal; margin: 0px 0px 15px 18px; line-height: 22px;}
 	.copy ul li, .copy ol li{margin-bottom: 0px;}
-	.copy code, .copy pre{}
+
 	.copy img{display: block;}
 	.copy h2{font-size: 22px; font-weight: 600; font-weight: lighter; margin-bottom: 15px;}
-	.copy h3{font-size: 16px;  margin-bottom: 15px;}//font-weight: 600;
+	.copy h3{font-size: 16px;  margin-bottom: 15px;}
 	.copy h4{font-size: 14px; font-weight: 600; margin-bottom: 15px;}
 	.copy h5{font-size: 12px; font-weight: 600; margin-bottom: 10px;}
 	.copy blockquote{padding-left: 15px; margin-left: 0px; font-style: italic;}
@@ -324,7 +324,7 @@ tr, td{padding: 3px 8px;}
 .comments .section-title, h3#reply-title{margin: 30px 0px; font-weight: bold; color: #111; font-size: 13px;}
 
 	ul.comment-container{font-size: 13px;}
-	#full-width ul.comment-container{}
+
 	li.comment{padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #ccc; position: relative;}
 	
 	.comment-avatar{float: left; margin-left: -80px;}
@@ -550,3 +550,10 @@ ul.widget-list li.widget ul li ul.children li {margin-left: 20px; padding: 6px;	
 
 ul.sub-post-list li h3 a {font-weight:bold;}
 ul.post-list li h2 a {font-weight:bold;}
+ul.sub-post-list li img,
+ul.post-list li img {width: 100%;height: auto;}
+ul.sub-post-list li div.copy h3 a{font-size: 24px;}
+div#header.clearfix{
+		margin-bottom: 0;
+		padding: 0;
+}

@@ -34,7 +34,7 @@ if (!defined('ABSPATH')) {
             <div class="social-menu">
                 <ul>
                     <li><a href="https://www.linkedin.com/company/digital-av-magazine" title="Accede a Linkedin" target="_blank"><span class="social linkedin">Linkedin</span></a></li>
-                    <li><a href="https://twitter.com/DigitalAVMag" title="Accede a Twiter" target="_blank"><span class="social twiter">Twiter</span></a></li>
+                    <li><a href="https://x.com/DigitalAVMag" title="Accede a Twiter" target="_blank"><span class="social twiter">Twiter</span></a></li>
                     <li><a href="https://www.youtube.com/user/DigitalAVMagazine" title="Accede a YouTube" target="_blank"><span class="social youtube">YouTube</span></a></li>
                 </ul>
             </div>
@@ -51,10 +51,10 @@ if (!defined('ABSPATH')) {
     </div>
     <div class="row pie ancho">
         <div class="col-xs-8 copyright">
-            <p>&copy; 2023 Digital AV Magazine - <a href="https://www.underwoodcomunicacion.com/" target="_blank">Underwood Comunicación SL</a></p>
+            <p>&copy; 2024 Digital AV Magazine - <a href="https://www.underwoodcomunicacion.com/" target="_blank">Underwood Comunicación SL</a></p>
         </div>
         <div class="col-xs-4 logopie">
-            <div class="pull-right"><img class="img-responsive" src="<?php echo site_url(); ?>/wp-content/themes/underwood/core/img/under-logo.jpg" alt="UnderWood Comunicación" /> </div>
+            <div class="pull-right"><img width="152" height="160" class="img-responsive" src="<?php echo site_url(); ?>/wp-content/themes/underwood/core/img/under-logo.jpg" alt="UnderWood Comunicación" /> </div>
         </div>
     </div>
 
@@ -62,7 +62,7 @@ if (!defined('ABSPATH')) {
 <div class="row">
 </div>
 <?php wp_footer(); ?>
-<script async src="//ads11.panoramaaudiovisual.com/www/delivery/asyncjs.php"></script>
+<script async src="//ads3.panoramaaudiovisual.com/www/delivery/asyncjs.php"></script>
 </body>
 
 </html>

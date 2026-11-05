@@ -179,7 +179,7 @@ pageTracker._trackPageview();
 				<div>
 					<ul class="social">
 					<li><a href="https://www.linkedin.com/company/digital-av-magazine" class="linkedin">Linkedin</a></li>
-                        <li><a href="https://twitter.com/DigitalAVMag" class="twitter">Twitter</a></li>
+                        <li><a href="https://x.com/DigitalAVMag" class="twitter">Twitter</a></li>
 					</ul>
 				</div>
 			</li>
