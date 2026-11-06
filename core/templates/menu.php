@@ -31,7 +31,6 @@ $IdHijos="";
       <li><a href="/category/tribunas/">Tribunas</a></li>
       <li><a href="/agenda/">Agenda</a></li>
       <li><a href="/especiales/">Especiales</a></li>
-      <li><a href="/directorio/">Directorio</a></li>
    </ul>
 	<form class="navbar-form navbar-right no-mobile" role="search" method="get" id="searchform" action="<?=site_url();?>">
       <div class="form-group">

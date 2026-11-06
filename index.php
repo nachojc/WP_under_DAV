@@ -76,20 +76,12 @@ $num_sticky = 4;
 			// 'showposts' => $num_articulos
 		);
 
-		// $args  = array(
-		// 	'post_type'      => 'post',
-		// 	'posts_per_page' => 1,
-		// 	'post__not_in'   => array($articulos_descartados),
-		// 	'orderby'        => 'date',
-		// 	'order'          => 'DESC',
-		// 	'post_status'    => 'publish',
-		// 	'showposts' => $num_articulos
-		// );
 
 
 		// $the_query = new WP_Query(   $argumentos );
 		$the_query = new WP_Query($argumentos);
 		$descrt = $articulos_descartados;
+		
 		if ($the_query->have_posts()) {
 			while ($the_query->have_posts()) {
 				$the_query->the_post();
