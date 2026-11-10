@@ -31,13 +31,13 @@
    *
    */
 
-  // $(".contentmain").prepend(`
-  //   <div class='publizPushDown publicidad'>
-  //       <a href='https://ads11.panoramaaudiovisual.com/www/delivery/ck.php?zoneid=190' target='_blank'><img src='https://ads11.panoramaaudiovisual.com/www/delivery/avw.php?zoneid=190&amp;cb=INSERT_RANDOM_NUMBER_HERE' border='0' alt='' /></a>
-  //       <div class='publizPush2Up'>
-  //           <a href='https://ads11.panoramaaudiovisual.com/www/delivery/ck.php?zoneid=189' target='_blank'><img src='https://ads11.panoramaaudiovisual.com/www/delivery/avw.php?zoneid=189&amp;cb=INSERT_RANDOM_NUMBER_HERE' border='0' alt='' /></a>
-  //       </div>
-  //   </div>`);
+  $(".contentmain").prepend(`
+    <div class='publizPushDown publicidad'>
+        <a href='https://ads3.panoramaaudiovisual.com/www/delivery/ck.php?zoneid=64' target='_blank'><img src='https://ads3.panoramaaudiovisual.com/www/delivery/avw.php?zoneid=64&amp;cb=INSERT_RANDOM_NUMBER_HERE' border='0' alt='' /></a>
+        <div class='publizPush2Up'>
+            <a href='https://ads3.panoramaaudiovisual.com/www/delivery/ck.php?zoneid=63' target='_blank'><img src='https://ads3.panoramaaudiovisual.com/www/delivery/avw.php?zoneid=63&amp;cb=INSERT_RANDOM_NUMBER_HERE' border='0' alt='' /></a>
+        </div>
+    </div>`);
   /*  Laterales*/
   $("header .ancho").append(
     '<div class="publizLeftUp">' + PubliLateralIzda() + "</div>",
@@ -72,7 +72,7 @@
   $(document).ready(function (e) {
     var publisToMove;
     if ($("section.destacado").length) {
-      publisToMove = $("aside>.publicidad");
+      publisToMove = $("aside>.widget_block");
 
       checkPubli();
       window.onresize = checkPubli;

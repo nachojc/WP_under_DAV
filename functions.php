@@ -56,7 +56,7 @@ function force_jquery_to_footer()
   
   
   wp_register_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', ['jquery'], NULL, true);
-  wp_register_script('custom', site_url() . '/wp-content/themes/underwood/core/js/custom.1.0.min.js', ['jquery'], NULL, true);
+  wp_register_script('custom', site_url() . '/wp-content/themes/underwood/core/js/custom.1.2.min.js', ['jquery'], NULL, true);
   wp_enqueue_script('bootstrap', ['jquery'], NULL, array('strategy'  => 'defer',));
   wp_enqueue_script('custom', ['jquery'], NULL, array('strategy'  => 'defer',));
   
